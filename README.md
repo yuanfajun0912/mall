@@ -14,6 +14,16 @@
 
 ## 项目预览
 
+因为接口的原因大部分数据都不能正常显示，只能看到大体的布局
+
+打开调试工具，会发现报错This request has been blocked; the content must be served over HTTPS.
+
+这是因为我们使用的接口是http协议，而github page加载项目用的是https协议，它认为接口不安全
+
+因为接口是coderwhy老师提供的，所以我也没办法改变
+
+建议将项目clone下来后npm run serve进行预览
+
 https://yuanfajun0912.github.io/mall/dist/
 
 ## 技术栈
