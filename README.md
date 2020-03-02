@@ -1,4 +1,4 @@
-**# 项目简介**
+# 项目简介
 
 仿蘑菇街的电商项目，很好的vue上手项目
 
@@ -12,11 +12,15 @@
 
 不过不建议上来就看视频，可以先自己做，不懂的再看
 
-**## 技术栈**
+## 项目预览
+
+https://yuanfajun0912.github.io/mall/
+
+## 技术栈
 
 vue全家桶（vue.js、vuex、vue-router）,axios,swiper,better-scroll,vue-lazyload
 
-**## src文件结构**
+## src文件结构
 
 - assets 静态资源
 
@@ -62,32 +66,32 @@ vue全家桶（vue.js、vuex、vue-router）,axios,swiper,better-scroll,vue-lazy
   - profile 我的页面组件及其子组件
   - shopcart 购物车页面组件及其子组件
 
-**## 项目下载**
+## 项目下载
 
 git clone
 
-**## 项目运行**
+## 项目运行
 
 npm run serve
 
-**## 项目调试**
+## 项目调试
 
 推荐在谷歌浏览器打开后用移动端模式调试
 
 也可在手机上调试，手机上调试方法可自行google
 
-**## 做项目时自己总结的详细笔记和采坑日记**
+## 做项目时自己总结的详细笔记和采坑日记
 
 https://blog.csdn.net/qq_41706280/article/details/104175608
 
-**## 学习资料**
+## 学习资料
 
 https://www.bilibili.com/video/av89760569，看的这个视频，很好的vue入门视频。
 
 接口也是录制这个视频的corderwhy老师提供的
 
 
-**## 后端接口来源**
+## 后端接口来源
 
 找https://www.bilibili.com/video/av89760569这个视频的up主，看他的简介
 
