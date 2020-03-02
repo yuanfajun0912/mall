@@ -3,8 +3,8 @@ import axios from 'axios'
 //封装多个实例，所以用函数最好,config是用这个封装好的axios时传入的配置
 export function request(config) {
   const instance1 = axios.create({
-    //baseURL: 'http://123.207.32.32:8000/api/hy',
-    baseURL: 'http://106.54.54.237:8000/api/hy',
+    //baseURL: 'http://123.207.32.32:8000/api/wh',
+    baseURL: 'http://106.54.54.237:8000/api/wh',
     timeout: 8000
   })
   //请求拦截
