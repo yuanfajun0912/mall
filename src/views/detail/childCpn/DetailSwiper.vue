@@ -2,7 +2,8 @@
   <div class="swiper-container">
     <div class="swiper-wrapper">
         <div class="swiper-slide" v-for="item in swiperImage" :key="item.index">
-          <img :src="item" alt="">
+          <!-- 加http是为了项目打包后能正常运行 -->
+          <img :src="'http:' + item" alt="">
         </div>
     </div>
     <!-- 分页器 -->

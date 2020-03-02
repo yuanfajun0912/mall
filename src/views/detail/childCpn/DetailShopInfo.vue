@@ -1,7 +1,8 @@
 <template>
   <div class="shop-info">
     <div class="shop-top">
-      <img :src="shop.logo">
+      <!-- 加http是为了打包后能正常显示 -->
+      <img :src="'http:'+ shop.logo">
       <span class="title">{{shop.name}}</span>
     </div>
     <div class="shop-middle">

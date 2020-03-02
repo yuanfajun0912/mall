@@ -86,7 +86,6 @@ export default {
   methods: {
     getDetail_methods() {
       return getDetail(this.itemId).then(res => {
-        console.log(res)
         const data = res.result
         //拿到轮播图的数据
         this.swiperImage = data.itemInfo.topImages

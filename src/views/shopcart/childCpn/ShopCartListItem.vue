@@ -8,7 +8,8 @@
       </div>
     </div>
     <div class="item-image">
-      <img :src="cartItem.image" alt="">
+      <!-- 加http:是为了打包后能正常引用 -->
+      <img :src="'http:' + cartItem.image" alt="">
     </div>
     <div class="item-main">
       <div class="item-title"><b>{{cartItem.title}}</b></div>

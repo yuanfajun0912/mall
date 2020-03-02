@@ -9,7 +9,8 @@
         </div>
       </div>
       <div class="info-user">
-        <img :src="commentInfo.user.avatar" alt="">
+        <!-- 加http是为了打包后正常显示图片 -->
+        <img :src="'http:' + commentInfo.user.avatar" alt="">
         <span>{{commentInfo.user.uname}}</span>
       </div>
       <div class="info-detail">
@@ -19,7 +20,7 @@
           <span>{{commentInfo.style}}</span>
         </div>
         <div class="info-imgs">
-          <img :src="item" v-for="(item, index) in commentInfo.images" :key="index">
+          <img :src="'http:' + item" v-for="(item, index) in commentInfo.images" :key="index">
         </div>
       </div>
     </div>

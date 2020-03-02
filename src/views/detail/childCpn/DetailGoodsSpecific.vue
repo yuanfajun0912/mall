@@ -11,7 +11,8 @@
         <div>{{item.key}}</div>
         <!-- 拿到图片中的每一张图片 -->
         <div v-for="(image, cindex) in item.list" :key="cindex">
-          <img v-lazy="image" alt="" @load="imageLoad">
+          <!-- 加http是因为打包后会出问题 -->
+          <img v-lazy="'http:' + image" alt="" @load="imageLoad">
         </div>
       </div>
     </div>
