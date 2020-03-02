@@ -14,10 +14,7 @@
 
 ## 项目预览
 
-本来想用gh-pages分支预览项目的，emmmm，打包后的js、css资源404了，很难受
-
-截图展示
-
+https://yuanfajun0912.github.io/mall/dist/
 
 ## 技术栈
 
