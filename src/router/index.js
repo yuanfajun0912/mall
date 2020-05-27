@@ -38,8 +38,7 @@ const routes = [
 ]
 const router = new Router({
   routes,
-  // history模式在打包后会出问题
-  mode: 'hash'
+  mode: 'history'
 })
 
 export default router

@@ -49,7 +49,7 @@ export default {
 <style scoped>
   .left img {
     margin-top: 12px;
-  }
+  } 
 
   .center {
     display: flex;
