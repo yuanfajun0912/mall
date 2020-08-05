@@ -1,4 +1,4 @@
-# 项目简介
+## 项目简介
 
 仿蘑菇街的电商项目，很好的vue上手项目
 
@@ -14,17 +14,11 @@
 
 ## 项目预览
 
-因为接口的原因大部分数据都不能正常显示，只能看到大体的布局
+http://mall.yzforever.top
 
-打开调试工具，会发现报错This request has been blocked; the content must be served over HTTPS.
+建议使用chrome浏览器或者其他主流浏览器预览
 
-这是因为我们使用的接口是http协议，而github page加载项目用的是https协议，它认为接口不安全
-
-因为接口是coderwhy老师提供的，所以我也没办法改变
-
-建议将项目clone下来后npm run serve进行预览
-
-https://yuanfajun0912.github.io/mall/dist/
+PC端：右键 -》 检查 -》 点击手机标识
 
 ## 技术栈
 
@@ -100,13 +94,10 @@ https://www.bilibili.com/video/av89760569，看的这个视频，很好的vue入
 
 接口也是录制这个视频的corderwhy老师提供的
 
-
 ## 后端接口来源
 
 找https://www.bilibili.com/video/av89760569这个视频的up主，看他的简介
 
-
-我的项目里面为了clone下来就能运行就没有改接口，但是最好还是自己找老师要，也能长期维护
 
 
 
