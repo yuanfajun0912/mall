@@ -6,7 +6,8 @@ export function request(config) {
     //baseURL: 'http://123.207.32.32:8000/api/wh',
     // baseURL: 'http://106.54.54.237:8000/api/wh',
     // baseURL: 'http://123.207.32.32:8000/api/m3',
-    baseURL: 'http://123.207.32.32:8000/api/x6',
+    // baseURL: 'http://123.207.32.32:8000/api/x6',
+    baseURL: 'http://123.207.32.32:8000/api/h8',
     timeout: 8000
   })
   //请求拦截
