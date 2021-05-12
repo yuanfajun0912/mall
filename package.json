@@ -19,7 +19,7 @@
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.4.6",
     "@vue/cli-service": "^4.4.6",
-    "swiper": "^5.4.5",
+    "swiper": "^6.5.1",
     "vue-template-compiler": "^2.6.10"
   }
 }
